@@ -8,6 +8,7 @@ function Login() {
   const [message, setMessage] = useState("");
 
   const navigate = useNavigate();
+  const backendUrl=import.meta.env.VITE_RENDER_BACKEND_URL;
 
   const handleLogin = async () => {
     console.log("🔐 Attempting to log in...");
@@ -18,7 +19,7 @@ function Login() {
       const payload = { email, password };
       console.log("📤 Sending POST request to /login with:", payload);
 
-      const response = await axios.post("http://localhost:3002/login", payload);
+      const response = await axios.post(`${backendUrl}/login`, payload);
 
       console.log("📥 Server responded with:", response.data);
 

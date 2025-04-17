@@ -8,10 +8,11 @@ function Signup() {
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
   const navigate = useNavigate();
+  const backendUrl=import.meta.env.VITE_RENDER_BACKEND_URL;
 
   const handleSignup = async () => {
     try {
-      const response = await axios.post("http://localhost:3002/signup", {
+      const response = await axios.post(`${backendUrl}/signup`, {
         email,
         username,
         password,
