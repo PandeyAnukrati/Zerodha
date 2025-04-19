@@ -21,7 +21,7 @@ function Signup() {
 
       if (response.data.success) {
         setMessage("Signup successful! ✅");
-        window.location.href = "http://localhost:3001";
+        window.location.href = "https://zerodha-dashboard-6bt8.onrender.com";
       } else {
         setMessage(response.data.message || "Signup failed.");
       }
