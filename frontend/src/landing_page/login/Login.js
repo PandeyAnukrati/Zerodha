@@ -27,8 +27,7 @@ function Login() {
       if (response.data.success) {
         console.log("✅ Login success. Token/User Data:", response.data);
         setMessage("Login successful ✅");
-        navigate("/dashboard");
-
+        window.location.href = "http://localhost:3001";
 
         setTimeout(() => {
           console.log("➡️ Redirecting to /dashboard");
