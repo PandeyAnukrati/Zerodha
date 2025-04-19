@@ -8,9 +8,10 @@ function Login() {
   const [message, setMessage] = useState("");
 
   const navigate = useNavigate();
-  const backendUrl=import.meta.env.VITE_RENDER_BACKEND_URL;
+  const backendUrl=process.env.REACT_APP_API_URL;
 
   const handleLogin = async () => {
+    console.log(backendUrl);
     console.log("🔐 Attempting to log in...");
     console.log("📧 Email entered:", email);
     console.log("🔑 Password entered:", password);

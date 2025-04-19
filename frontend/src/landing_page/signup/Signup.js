@@ -8,9 +8,10 @@ function Signup() {
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
   const navigate = useNavigate();
-  const backendUrl=import.meta.env.VITE_RENDER_BACKEND_URL;
+  const backendUrl=process.env.REACT_APP_API_URL;
 
   const handleSignup = async () => {
+    console.log(backendUrl)
     try {
       const response = await axios.post(`${backendUrl}/signup`, {
         email,
