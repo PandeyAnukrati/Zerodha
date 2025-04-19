@@ -55,7 +55,7 @@ function Login() {
       <div className="card shadow-lg p-4 w-100" style={{ maxWidth: 420, borderRadius: "12px" }}>
         <div className="text-center mb-4">
           <img
-            src="/Media/images/logo (2).svg"
+            src="/logo (2).svg"
             alt="Zerodha Logo"
             style={{ width: 100 }}
           />

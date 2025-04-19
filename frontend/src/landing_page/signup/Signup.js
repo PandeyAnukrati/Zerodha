@@ -46,7 +46,7 @@ function Signup() {
       >
         <div className="text-center mb-4">
           <img
-            src="/Media/images/logo (2).svg"
+            src="/logo (2).svg"
             alt="Zerodha Logo"
             style={{ width: 100 }}
           />

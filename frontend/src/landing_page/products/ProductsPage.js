@@ -27,13 +27,13 @@ function ProductPage() {
         googlePlay=""
         appStore=""
         
-         />     <RightSection imageURL="media/images/console.png"
+         />     <RightSection imageURL="/console.png"
          productName="Console"
          productDescription="The central dashboard for your Zerodha account. Gain insights into your trades and investments with in-depth reports and visualisations."
  />
 
 <LeftSection
-        imageURL="media/images/varsity.png"
+        imageURL="/varsity.png"
         productName="Varsity mobile"
         productDescription="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go."
 

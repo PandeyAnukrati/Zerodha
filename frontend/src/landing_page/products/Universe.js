@@ -90,7 +90,7 @@ function Universe() {
           <div className="col-12 col-md-4 p-3">
             <div className="logo-container">
               <img
-                src="media/images/smallcaseLogo.png"
+                src="/smallcaseLogo.png"
                 className="logo-img"
                 alt="Smallcase"
               />
@@ -105,7 +105,7 @@ function Universe() {
           <div className="col-12 col-md-4 p-3">
             <div className="logo-container">
               <img
-                src="media/images/streakLogo.png"
+                src="/streakLogo.png"
                 className="logo-img"
                 alt="Streak"
               />
@@ -120,7 +120,7 @@ function Universe() {
           <div className="col-12 col-md-4 p-3">
             <div className="logo-container">
               <img
-                src="media/images/sensibullLogo.svg"
+                src="/sensibullLogo.svg"
                 className="logo-img"
                 alt="Sensibull"
               />
@@ -136,7 +136,7 @@ function Universe() {
           <div className="col-12 col-md-4 p-3">
             <div className="logo-container">
               <img
-                src="media/images/zerodhaFundhouse.png"
+                src="/zerodhaFundhouse.png"
                 className="logo-img"
                 alt="Zerodha Fund House"
               />
@@ -151,7 +151,7 @@ function Universe() {
           <div className="col-12 col-md-4 p-3">
             <div className="logo-container">
               <img
-                src="media/images/goldenpiLogo.png"
+                src="/goldenpiLogo.png"
                 className="logo-img"
                 alt="GoldenPi"
               />
@@ -165,7 +165,7 @@ function Universe() {
           <div className="col-12 col-md-4 p-3">
             <div className="logo-container">
               <img
-                src="media/images/dittoLogo.png"
+                src="/dittoLogo.png"
                 className="logo-img"
                 alt="Ditto"
               />

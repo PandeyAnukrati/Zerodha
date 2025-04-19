@@ -77,7 +77,7 @@ function Navbar() {
         
         {/* ✅ Updated logo with Link */}
         <Link className="navbar-brand" to="/">
-          <img src="Media/images/logo (2).svg" style={{ width: "25%" }} alt="Logo" />
+          <img src="/logo (2).svg" style={{ width: "25%" }} alt="Logo" />
         </Link>
 
         <button
