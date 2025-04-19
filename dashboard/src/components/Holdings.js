@@ -6,7 +6,7 @@ import { VerticalGraph } from "./VerticalGraph";
 
 const Holdings = () => {
   const [allHoldings, setAllHoldings] = useState([]);
-  const backendUrl=import.meta.env.VITE_RENDER_BACKEND_URL;
+  const backendUrl=process.env.REACT_APP_API_URL;;
 
   useEffect(() => {
     axios.get(`${backendUrl}/allHoldings`).then((res) => {
